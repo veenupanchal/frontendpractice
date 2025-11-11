@@ -1,0 +1,522 @@
+   .cart_logo{
+            height: 20px;
+        }
+        .links{
+            justify-content: center;
+            display:flex;
+            gap:10px;
+        }
+        .logos{
+            display:flex;
+            gap:5px;
+        }
+       
+        header{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color:rgb(241, 237, 237) ;
+            
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+              background-color: #faf6f6;
+              margin-left: 0;
+              margin-right: 0;
+              
+        }
+
+    ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2.5em;
+       }
+
+       a{
+    text-decoration: none;           /* links in header */
+    color: #4c4848;
+       }
+
+     .container1{
+    display: flex;                          /* first container intro and big image and a button to shop*/
+    margin-top: 10em;
+    
+
+       }
+       .pic-c1{
+        margin-left: 18em;                  /* first container pic */
+       }
+
+       .text-c1{                                /* first container text */
+            margin-block-start: 2em;
+            margin-left: 5em;
+            margin-right: 23em;
+       }
+       .l1{
+    font-size: 1.3rem;
+    line-height: 1.1em;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+       }
+       .l2{
+        font-weight: 700;
+        font-size: 3.70rem;
+        font-family: 'Merriweather',  serif;
+            margin-block-start: 0.4em;
+            margin-block-end: 0em;
+       }
+       .l3{
+        color: #696565;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-block-start: 1 em;
+            font-size: 1em;
+
+       }
+       #bgimage-c1{
+        position:absolute;
+        top: 500px;
+        right: 5em;
+        bottom: 0;
+        z-index: -300;
+        height: 300px;
+        transform: rotate(30deg);
+        opacity: 0.4;
+       }
+       .btn{
+       font-size: 0.9em;
+       font-weight:BOLD;
+       color: white;
+       border: none;
+       background-color: #658a42;
+;      border-radius: 7px;
+       width: 13em;
+       height: 3.5em;
+       margin-top: 2em;
+       position:absolute;
+       z-index: 100;
+      
+    
+}
+#shopnowbtext{
+    position: relative;
+    top: -4px;
+    right: .01em;
+}
+    #bcartimage{
+    overflow: hidden;
+    position: relative;
+    height: 1.4em;
+    left: -6px;
+
+    }
+    .blacknav{
+        background-color: black;
+        height: 12em;
+        width: 100%;
+        margin-block-start: 6em;
+        justify-content: center;
+        display:flex;
+        gap:1em;
+        align-items: center;
+    }
+.bnavc{
+   
+    background-color: #2d302d;
+    height: 8em;
+    width: 16vw;  
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-block-end: 0;
+}
+.bnavc h2{
+    margin-block-end: 0;
+}
+.bnavc p{
+    margin-block-start: 5px;
+    font-weight:500;
+}
+.bsp, h1{
+    text-align: center;
+    margin-block-start: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bspc{
+    margin-block-start: 1em;
+    justify-content: center;
+    display: flex;
+    gap:1em;
+    position:relative;
+    margin-bottom: 6em;
+}
+.bspc_star{
+    height: 1.5em;
+}
+.bspi{
+    margin-block-start: 1em;
+}
+
+.bspi ul{
+display: block;
+text-align: center;
+}
+li{
+    color: initial;
+}
+
+#fixed_button_customise{
+    position:fixed;
+    top: 35vh;
+    right:0;
+    border:none;
+    height: 3em;
+    width:9em;
+    background-color: white;
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.06), -1px 0px 3px rgba(0, 0, 0, 0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    padding-left: 0px;
+    z-index: 100;
+    
+}
+#fixed_button_customise:hover{
+   color:royalblue
+}
+#fixed_button_cart{
+    border:none;
+    position:fixed;
+    bottom:.5em;
+    right:.5em;
+    background-color: #658a42;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    box-shadow: none;
+    color:white;
+    font-size: 1.5em;
+    padding:none;
+    cursor: pointer;
+    z-index: 101;
+}
+#fixed_div_cart_count{
+    border-radius: 50%;
+    border:none;
+    background-color: rgb(24, 168, 161);
+    color: white;
+    position:fixed;
+    right:4em;
+    bottom:4.5em;
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+    z-index: 102;
+    font-size: small;
+}
+.sale_div{
+    position:absolute;
+    background-color: #88c74d;
+    border-radius: 50%;
+    border-bottom:  #88c74d;
+    color: black;
+    height: 2.5em;
+    width: 2.5em;
+    z-index: 1;
+    right: 16vw;
+    font-size: medium;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.text_center{
+    height: 100%;
+    display: block;
+    font-size: medium;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+fieldset{
+    border:none;
+    margin-left: 0;
+    margin-right: 0;
+    padding:0;
+}
+legend{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#basil_leaf{
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3em;
+    z-index: 3;
+    
+}
+.container2{
+    background-color:rgb(241, 237, 237) ;
+    bottom:7em;
+    z-index: -1;
+}
+.container-2{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(241, 237, 237) ;
+            gap: 2em;
+            height: 35em;
+            width: 100%;
+             z-index:1;
+            position:relative;
+            
+           
+}
+.inner_container2{
+    display:block;
+    background-color: white;
+    width: 15%;
+    height: 50%;
+    border-radius: 9px;
+    border: none;
+    text-align: left;
+    padding:3em;
+    position:relative;
+    
+    
+}
+.inner_container2 span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.inner_container2 p{
+    color: rgb(83, 81, 81);
+}
+#inner_container2_img1{
+    position:absolute;
+    height:15em;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+#inner_container2_img2{
+    position:absolute;
+    height:9em;
+    z-index: 1;
+    bottom: 1em;
+    right: 1em;
+}
+#inner_container2_img3{
+    position:absolute;
+    height: 10em;
+    z-index: 1;
+    bottom: .5em;
+    right: .5em;
+}
+.blacknav2{
+    background-color: black;
+    height: 10em;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.blacknav2 span{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+.blacknav2 button{
+      font-size: 0.9em;
+       font-weight:BOLD;
+       color: white;
+       border: none;
+       background-color: #658a42;
+       border-radius: 7px;
+       width: 13em;
+       height: 3.5em;
+       margin-top: 2em;
+}
+.bnav2_span{
+    position: relative;
+    top: -4px;
+    right: .01em;
+    display: -ms-inline-grid;
+}
+
+#diamond{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -.3em;
+}
+.container2 h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;  
+    font-size: 1.7em;
+    margin-top: 1.7em;
+    padding-bottom: 2em;
+}
+
+.cr{
+    margin-block-start: 1em;
+    display:block;
+    background-color: white;
+    width: 15%;
+    height:50%;
+    border-radius: 9px;
+    border: none;
+    padding:2em;
+    position:relative;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.055);
+    text-align: center;
+    top : 5em;
+    
+
+}
+.cr ul, .crii ul{
+   
+display: block;
+text-align: center; 
+padding-inline-start: 0;
+}
+.cr p{
+    margin-block-start: 1.5em;
+}
+
+.cri{
+
+    margin-block-start: 1em;
+    display:block;
+    background-image: url("images/peppers.jpg");
+    width: 15%;
+    height: 20em;
+    border-radius: 9px;
+    border: none;
+    padding:2em;
+    position:relative;
+    text-align: center;
+    
+    filter: brightness(45%); /* Initial brightness (normal) */
+    transition: filter 0.3s ease;
+}
+.crii{
+    display:flex;
+    color: white;
+    position:relative;
+    text-align: center;
+  
+    
+}
+.cri:hover{
+    filter: brightness(30%); 
+}
+#bgimg-c3{
+        position:absolute;
+       
+        left:0;
+       bottom: 5em;
+        z-index: -300;
+        height: 400px;
+        transform: rotate(160deg) scaley(-1) ; 
+        opacity: 0.2;
+}
+.fb{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:.5em;
+   position: relative;
+   margin-block-start: 4em;
+   margin-block-end: 3em;
+   margin-inline-start: 5em;
+}
+.fb span{
+    font-family: 'sans-serif';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    padding-bottom: 2em;
+    
+}
+.bfooter{
+     background-color: black;
+    color:white;
+    display: flex;
+}
+.footerdiv1{
+    display:block;
+    width:12%;
+    margin-inline-start: 15%;
+
+}
+.footerdiv1 p{
+font-family:' Sans', 'sans-serif';
+font-style: italic;
+font-size: 1.2em;
+font-weight: bold;
+margin-inline-start: 1em;
+}
+.footerdivlist{
+ 
+    display: flex;
+    justify-content: center;
+    gap:2em;
+}
+footer hr{
+    height: 1px ;
+    border:none;
+    background-color: rgba(49, 48, 48, 0.719);
+}
+.footerdivlist dt{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'arial';
+    text-align: left;
+    margin-block-start: 1.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 6em;
+}
+.footerdivlist dd{
+    color: #939793;
+    text-align: left;
+    margin-inline-start: 9em;
+    margin-block-start: .5em;
+}
+.footerend{
+    display:flex;
+    margin-block-start: 2em;
+}
+    
+.footerend span{
+    margin-inline-start: 16%;
+    font-size: 1em;
+}
+.fooetrendicons{
+    display:flex;
+    justify-content: center;
+    gap:1em;
+    margin-inline-start: 40%;
+}

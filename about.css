@@ -1,0 +1,126 @@
+    #fixed_button_customise{
+    position:fixed;
+    top: 35vh;
+    right:0;
+    border:none;
+    height: 3em;
+    width:9em;
+    background-color: white;
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.06), -1px 0px 3px rgba(0, 0, 0, 0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    padding-left: 0px;
+    z-index: 100;
+    
+}
+#fixed_button_customise:hover{
+   color:royalblue
+}
+#fixed_button_cart{
+    border:none;
+    position:fixed;
+    bottom:.5em;
+    right:.5em;
+    background-color: #658a42;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    box-shadow: none;
+    color:white;
+    font-size: 1.5em;
+    padding:none;
+    cursor: pointer;
+    z-index: 101;
+}
+#fixed_div_cart_count{
+    border-radius: 50%;
+    border:none;
+    background-color: rgb(24, 168, 161);
+    color: white;
+    position:fixed;
+    right:4em;
+    bottom:4.5em;
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+    z-index: 102;
+    font-size: small;
+}
+   
+   
+   .cart_logo{
+            height: 20px;
+        }
+        .links{
+            justify-content: center;
+            display:flex;
+            gap:10px;
+        }
+        .logos{
+            display:flex;
+            gap:5px;
+        }
+       
+        header{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color:#F8F6F3;
+            
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+              background-color: #ffffff;
+              margin-left: 0;
+              margin-right: 0;
+              
+        }
+        
+    ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2.5em;
+       }
+
+       a{
+    text-decoration: none;           /* links in header */
+    color: #4c4848;
+       }
+
+   
+.headingcontainer{
+   background-color:#F8F6F3;
+  
+   justify-content: center;
+
+}
+
+.headingcontainer h1{
+    margin:0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 3.5em;
+    font-family:  'Merriweather', serif;
+    text-align: center;
+    z-index: -2;
+}
+
+legend{
+    text-align: center;
+    
+}
+fieldset{
+    border:none;
+    
+}
+#basil_leaf{
+    position: absolute;
+   left: 46%;
+   right:auto;
+   top:18em;
+   height: 4em;
+}
